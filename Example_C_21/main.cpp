@@ -50,7 +50,7 @@ void fillVector(vector<Student>& newMyClass)
 
 void printVector(const vector<Student>& newMyClass)
 {
-	int size = newMyClass.size();
+	unsigned int size = newMyClass.size();
 
 	for (unsigned int i = 0; i < size; i++)
 	{
